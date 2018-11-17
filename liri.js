@@ -20,6 +20,8 @@ if (inputRequest=="do-what-it-says"){
     var dataArr = data.split(",");
     var commandInput = dataArr[0].trim();
     var contentInput = dataArr[1].trim().split(" ").join("+");
+    console.log(commandInput);
+    console.log(contentInput);
     skills(commandInput,contentInput);
   });
 } else {

@@ -21,6 +21,8 @@ liri.js can take in one of the following commands:
     * Venue location
     * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
+ ![concert-this](images/concert-this.gif)
+
 2. `node liri.js spotify-this-song '<song name here>'`
 
 * This will show the following information about the song in your terminal/bash window
@@ -31,6 +33,8 @@ liri.js can take in one of the following commands:
     The album that the song is from
     ```
 * If no song is provided then your program will default to "The Sign" by Ace of Base.
+
+![spotify-this-song ](images/spotify-this.gif)
 
 3. `node liri.js movie-this '<movie name here>'`
 
@@ -51,6 +55,8 @@ liri.js can take in one of the following commands:
 If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 It's on Netflix!
 
+![movie-this](images/movie-this.gif)
+
 4. `node liri.js do-what-it-says`
 
 * LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
@@ -64,6 +70,7 @@ It's on Netflix!
 * [Moment](https://www.npmjs.com/package/moment)
 * [DotEnv](https://www.npmjs.com/package/dotenv)
 
+![do-what-it-says](images/do-what-it-says.gif)
 
 ### Note
 * If someone wanted to clone this app from github and run it yourself, you would need to supply your own `.env` file for it to work. This file should have the content below.
