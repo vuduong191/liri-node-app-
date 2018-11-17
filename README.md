@@ -61,6 +61,8 @@ It's on Netflix!
 
 * LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
+![do-what-it-says](images/do-what-it-says.gif)
+
 ### Resources Used
 
 * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
@@ -70,7 +72,6 @@ It's on Netflix!
 * [Moment](https://www.npmjs.com/package/moment)
 * [DotEnv](https://www.npmjs.com/package/dotenv)
 
-![do-what-it-says](images/do-what-it-says.gif)
 
 ### Note
 * If someone wanted to clone this app from github and run it yourself, you would need to supply your own `.env` file for it to work. This file should have the content below.
