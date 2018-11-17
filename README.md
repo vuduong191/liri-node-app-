@@ -74,7 +74,7 @@ It's on Netflix!
 
 
 ### Note
-* If someone wanted to clone this app from github and run it yourself, you would need to supply your own `.env` file for it to work. This file should have the content below.
+* If you want to clone this app from github and run it yourself, you would need to supply your own `.env` file for it to work. This file should have the content below.
 
 ```js
 # Spotify API keys
